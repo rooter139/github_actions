@@ -23,3 +23,5 @@ jobs:
         run: |
           echo add other actions to the build
           echo test, and deploy your project
+      - name: Install packages
+        run: npm install
